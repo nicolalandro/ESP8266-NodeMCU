@@ -1,6 +1,6 @@
 # ESP8266-NodeMCU
 Su questo repositori sulla pagina della wiki farò una piccola guida basilaree su come utilizzare la Board sopra citata.
-Se non vi bastano le informazioni qui scritte si può far riferimento alla documentazione [NodeMCU](http://nodemcu.readthedocs.io/en/master/).
+Se non vi bastano le informazioni qui scritte si può far riferimento alla [documentazione NodeMCU](http://nodemcu.readthedocs.io/en/master/).
 
 # Installare i Driver
 Potrebbe non essere necessario installare il driver, il vostro pc potrebbe riconosce la Board automaticamente.
