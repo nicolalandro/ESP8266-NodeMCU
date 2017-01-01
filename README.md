@@ -24,7 +24,7 @@ Per andare in programming mode sulla Board si devono configurare i seguenti pin:
 
 (tra parentesi nomi sulla Board Nodemcu StarterKit v0.9)
 
-Ora è possibile connettere la bord al PC
+Ora è possibile programmare la board connettendola al vostro PC
 
 # Flashing Firmware
 Si può fare da windows con tool grafici scaricabili a [questo link](https://github.com/nodemcu/nodemcu-flasher). Oppure su tutte le piattaforme con [esptool](https://github.com/espressif/esptool).
