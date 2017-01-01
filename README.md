@@ -32,12 +32,11 @@ Si può utilizzare esptool da linux nel seguente modo:
 
 # Prorgramming
 Si può programmare con:
-* Arduino Ide: 
- * necessario installare le Board ESP 
+* [Arduino Ide](http://www.arduino.org/downloads): 
+ * necessario installare le [Board ESP](https://github.com/esp8266/Arduino)
  * linguaggio C like
  * sconsigliato per il poco controllo 
-
-* ESPlorer: utilizzabile direttamente
- * nessuna aggiunta necessaria
+* [ESPlorer](https://esp8266.ru/esplorer/):
+ * utilizzabile direttamente
  * linguaggio Python like
  * consigliato
