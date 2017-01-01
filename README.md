@@ -1,6 +1,6 @@
 # ESP8266-NodeMCU
-Su questo repositori sulla pagina della wiki farò una piccola guida basilaree su come utilizzare la Board sopra citata.
-Se non vi bastano le informazioni qui scritte si può far riferimento alla [documentazione NodeMCU](http://nodemcu.readthedocs.io/en/master/).
+Su questo repository sulla pagina della wiki farò una piccola guida basilaree su come utilizzare la Board sopra citata.
+Se non vi bastano le informazioni qui scritte si può far riferimento alla [documentazione NodeMCU](http://nodemcu.readthedocs.io/en/master/). Comunque ossevate la [wiki](https://github.com/nicolalandro/ESP8266-NodeMCU-Quick-Start/wiki).
 
 # Installare i Driver
 Potrebbe non essere necessario installare il driver, il vostro pc potrebbe riconosce la Board automaticamente.
