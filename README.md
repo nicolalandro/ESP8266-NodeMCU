@@ -7,10 +7,13 @@ Potrebbe non essere necessario installare il driver, il vostro pc potrebbe ricon
 Se ciò non accade, è necessario installare i driver. Se avete un NodeMCU v0.9 o un chip per il seriale-USB chx i driver sono scaricabili in versione aggiornata su [questo sito](http://www.wch.cn/download/CH341SER_LINUX_ZIP.html) (per windows è il file .zip senza esplicitamente scritto windows).
 Per installare i driver su linux è necessario 
 * compilare, quindi dopo essersi posizionati col terminale nella cartella contenente il driver eseguire il comando:
+
 `sudo make`
 * caricarlo:
+
 `sudo make load`
 * se si se si desidera eliminarlo
+
 `sudo make unload`
 
 # Programming Mode
@@ -28,8 +31,10 @@ Si può fare da windows con tool grafici scaricabili a [questo link](https://git
 Dobbiamo anche scaricare il firmware NodeMCU che possiamo trovare [qui](https://github.com/nodemcu/nodemcu-firmware/releases) (a noi serve il .bin).
 Si può utilizzare esptool da linux nel seguente modo:
 * Per cancellare qualsiasi cosa sia presente sulla Board
+
 `sudo python esptool.py --port /dev/ttyUSB0 --baud 115200  erase_flash`
 * Per caricare il firmware
+
 `sudo python esptool.py --port /dev/ttyUSB0  write_flash -fm dio -fs 32m 0x00000 The_Path_To_The_NodeMCU_Firmware.bin`
 
 # Prorgramming
