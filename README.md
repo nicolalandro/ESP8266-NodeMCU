@@ -29,4 +29,15 @@ Si può utilizzare esptool da linux nel seguente modo:
 `sudo python esptool.py --port /dev/ttyUSB0 --baud 115200  erase_flash`
 * Per caricare il firmware
 `sudo python esptool.py --port /dev/ttyUSB0  write_flash -fm dio -fs 32m 0x00000 The_Path_To_The_NodeMCU_Firmware.bin`
+
 # Prorgramming
+Si può programmare con:
+* Arduino Ide: 
+** necessario installare le Board ESP 
+** linguaggio C like
+** sconsigliato per il poco controllo 
+
+* ESPlorer: utilizzabile direttamente
+** nessuna aggiunta necessaria
+** linguaggio Python like
+** consigliato
